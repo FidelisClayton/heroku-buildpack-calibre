@@ -42,9 +42,14 @@ mv ./usr/lib/x86_64-linux-gnu/* $BUILD_DIR/calibre/lib/
 
 echo "-----> Setting up path"
 
-mkdir $BUILD_DIR/.profile.d/
 echo "export PATH=\$HOME/calibre:\$PATH" > $BUILD_DIR/.profile.d/calibre.sh
 ls -la
+
+cd $HOME
+
+ls
+
+ls calibre
 
 echo $PATH
 
