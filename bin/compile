@@ -49,7 +49,9 @@ cd $HOME
 
 ls
 
-ls calibre
+ls vendor
+
+ls vendor/calibre
 
 echo $PATH
 
