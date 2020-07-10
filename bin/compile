@@ -43,16 +43,5 @@ mv ./usr/lib/x86_64-linux-gnu/* $BUILD_DIR/calibre/lib/
 echo "-----> Setting up path"
 
 echo "export PATH=\$HOME/calibre:\$PATH" > $BUILD_DIR/.profile.d/calibre.sh
-ls -la
-
-cd $HOME
-
-ls
-
-ls vendor
-
-ls vendor/calibre
-
-echo $PATH
 
 echo "-----> Calibre install done"
